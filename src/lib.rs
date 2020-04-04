@@ -78,7 +78,7 @@ impl TagParser {
             .from_utf8()
             .read_from(input)
             .unwrap();
-        println!("Errors: {:?}", dom.errors);
+        // println!("Errors: {:?}", dom.errors);
 
         TagParser { dom }
     }
